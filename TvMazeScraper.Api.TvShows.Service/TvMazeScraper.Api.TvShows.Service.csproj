@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvMazeScraper.Api.TvShows.Contract\TvMazeScraper.Api.TvShows.Contract.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Api.TvShows.Domain\TvMazeScraper.Api.TvShows.Domain.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Api.TvShows.Infrastructure.SqlServer\TvMazeScraper.Api.TvShows.Infrastructure.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

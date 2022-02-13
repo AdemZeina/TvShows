@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows.Contract", "TvMazeScraper.Api.TvShows.Contract\TvMazeScraper.Api.TvShows.Contract.csproj", "{BDD0096B-BD1C-4525-9099-270417460EB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows.Service", "TvMazeScraper.Api.TvShows.Service\TvMazeScraper.Api.TvShows.Service.csproj", "{D6D0D082-8BFD-4258-9585-61369F48C7BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows.Service.UnitTest", "TvMazeScraper.Api.TvShows.Service.UnitTest\TvMazeScraper.Api.TvShows.Service.UnitTest.csproj", "{01BE860C-984E-47BD-9755-573B055F9BB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows.Domain", "TvMazeScraper.Api.TvShows.Domain\TvMazeScraper.Api.TvShows.Domain.csproj", "{6A44C1D8-4A3A-493D-80A0-1FA179A806A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows.Infrastructure.SqlServer", "TvMazeScraper.Api.TvShows.Infrastructure.SqlServer\TvMazeScraper.Api.TvShows.Infrastructure.SqlServer.csproj", "{ED35FFCB-F670-4E71-B8D3-475B7D68E191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows", "TvMazeScraper.Api.TvShows\TvMazeScraper.Api.TvShows.csproj", "{702C2DC5-AE33-453B-9918-397A1ED0778F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD0096B-BD1C-4525-9099-270417460EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD0096B-BD1C-4525-9099-270417460EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD0096B-BD1C-4525-9099-270417460EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD0096B-BD1C-4525-9099-270417460EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D0D082-8BFD-4258-9585-61369F48C7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D0D082-8BFD-4258-9585-61369F48C7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D0D082-8BFD-4258-9585-61369F48C7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D0D082-8BFD-4258-9585-61369F48C7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BE860C-984E-47BD-9755-573B055F9BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE860C-984E-47BD-9755-573B055F9BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE860C-984E-47BD-9755-573B055F9BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE860C-984E-47BD-9755-573B055F9BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A44C1D8-4A3A-493D-80A0-1FA179A806A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A44C1D8-4A3A-493D-80A0-1FA179A806A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A44C1D8-4A3A-493D-80A0-1FA179A806A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A44C1D8-4A3A-493D-80A0-1FA179A806A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED35FFCB-F670-4E71-B8D3-475B7D68E191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED35FFCB-F670-4E71-B8D3-475B7D68E191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED35FFCB-F670-4E71-B8D3-475B7D68E191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED35FFCB-F670-4E71-B8D3-475B7D68E191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702C2DC5-AE33-453B-9918-397A1ED0778F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702C2DC5-AE33-453B-9918-397A1ED0778F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702C2DC5-AE33-453B-9918-397A1ED0778F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702C2DC5-AE33-453B-9918-397A1ED0778F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5F8EBCE-C2BE-411E-90DF-8E8731DE6645}
+	EndGlobalSection
+EndGlobal
