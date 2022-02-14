@@ -17,6 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api.TvShows",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1060788-49AE-4FD2-A839-6A7B326C0CD2}"
 	ProjectSection(SolutionItems) = preProject
+		DbScripts.sql = DbScripts.sql
 		..\..\..\..\Documents\script.sql = ..\..\..\..\Documents\script.sql
 	EndProjectSection
 EndProject
